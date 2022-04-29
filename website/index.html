@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>weather-app</title>
+  </head>
+  <body>
+    <header>
+      <div id="weather-app">
+        <div class="app-name">CREATIVE KEN</div>
+        <div class="app-name">Weather App</div>
+      </div>
+    </header>
+
+    <main>
+      <div id="weatherSearch">
+        <input type="text" id="zip" placeholder="enter zip code here" />
+        <textarea
+          name=""
+          placeholder="enter your feelings"
+          id="feelings"
+          cols="30"
+          rows="5"
+        ></textarea>
+        <button id="generate">Search</button>
+      </div>
+
+      <div id="entryHolder">
+        <div class="date" id="date"></div>
+        <div class="temp" id="temp"></div>
+        <div class="content" id="content"></div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2021, All right Reserved to Idokoken</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
