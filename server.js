@@ -24,6 +24,9 @@ server.post("/addData", (req, res) => {
   projectData["temp"] = data.temp;
   projectData["date"] = data.date;
   projectData["feel"] = data.feel;
+  projectData["city"] = data.city;
+  projectData["icon"] = data.icon;
+  projectData["country"] = data.country;
 });
 //get all
 server.get("/all", (req, res) => {

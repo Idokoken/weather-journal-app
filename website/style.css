@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-image: url('images/cover1.jpg');
   }
   
   #weather-app {
@@ -60,20 +61,25 @@ body {
   }
   #entryHolder{
     width: 80%;
-    height: 160px;
+    min-height: 250px;
     margin: 0 auto;
-    background-color: rgba(137, 131, 143, 0.5);
+    background-color: rgba(137, 131, 143, 0.8);
     box-shadow: 5px 5px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .date, .temp, .content {
-    color: darkgreen;
+  .date, .temp, .content, .city, .icon {
+    color: darkred;
     text-align: center;
     font-size: 25px;
     margin: 0.6rem 0;
+    font-weight: bold;
+  }
+  .icon{
+    margin: 0;
+    
   }
   footer {
     height: 10vh;
